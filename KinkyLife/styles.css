@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+:root {
+    --bgColor:#fcfcfc;
+    --accentColor: #e7e2f3;
+    --font: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        padding: 0 10px 0 10px;
+    }
+}
+
+#userPhoto {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+}
+
+#Name {
+    color: var(--accentColor);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height:0;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+#userName {
+    color: var(--accentColor);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container{
+    overflow: auto;
+    margin: auto;
+    width: 80%;
+}
+
+.products {
+    overflow: auto;
+    margin: auto;
+    height: 50%;
+    padding: 2px;
+   }
+
+li {
+    padding: 2px;
+}
+
+#img {
+    max-width: 15%;
+    max-height: 15%;
+    padding: 2px;
+    vertical-align: bottom;
+    justify-content: left;
+  }
+
+.link {
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    background-color: var(--accentColor);
+    color: black;
+    font-family:'Roboto', sans-serif;
+    text-decoration: none;
+    transition: all .25s cubic-bezier(.08,.59,.29,.99);
+    border: solid var(--accentColor) 2px;
+}
+
+.link:hover{
+    background-color: var(--bgColor);
+    color: var(--accentColor);
+}
+
+.footer {
+    background-color: var(--bgColor);
+    position: fixed;
+    left: 0;
+    bottom: 0.1vh;
+    width: 100%;
+    text-align: center;
+ }
+
+ .footer-link {
+    font-size: 10px;
+    color: var(--font);
+    text-decoration: none;
+ }

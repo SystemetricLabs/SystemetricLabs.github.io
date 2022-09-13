@@ -66,15 +66,15 @@ li {
 }
 
 #img {
-    max-width: 15%;
-    max-height: 15%;
+    max-width: 25%;
+    max-height: 25%;
     padding: 2px;
     vertical-align: bottom;
     justify-content: left;
   }
 
 .link {
-    font-size: 150%;
+    font-size: 130%;
     display: flex;
     align-items: center;
     background-color: var(--accentColor);

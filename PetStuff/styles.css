@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+:root {
+    --bgColor: #ffffff;
+    --accentColor: #FDE0C8;
+    --fontColor: #000000;
+    --fontColor2: #000000;
+    --font: 'Quicksand';
+    --maxImg: 80px;
+
+}
+
+html {
+    background-color: var(--bgColor);
+    font-family: var(--font);
+}
+
+#userPhoto {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+}
+
+#Title {
+    color: var(--fontColor2);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#sub-Title {
+    color: var(--fontColor2);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.container {
+
+    max-width: 675px;
+    display: block;
+    margin: auto;
+
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+li img {
+    border: solid var(--accentColor) 2px;
+    max-width: var(--maxImg);
+    max-height: var(----maxImg);
+    display: block;
+    float: left;
+
+
+}
+
+.link { 
+    display: block;
+    background-color: var(--accentColor);
+    color: var(--fontColor);
+    font-family: var(--font);
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+    text-align: center;
+    background-color: var(--accentColor);
+    font-size: 1rem;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border: solid var(--accentColor) 2px;
+    text-decoration: none;
+
+}
+
+.link:hover {
+    background-color: var(--bgColor);
+    color: var(--accentColor);
+}
+
+.footer {
+    color: var(--accentColor);
+    left: 0;
+    bottom: 0.1vh;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.footer-link {
+    color: var(--accentColor);
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-size: 10px;
+}

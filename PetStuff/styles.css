@@ -69,6 +69,7 @@ li img {
     border: solid var(--accentColor) 2px;
     max-width: var(--maxImg);
     height: auto;
+    aspect-ratio: 1/1;
     display: block;
     float: left;
 

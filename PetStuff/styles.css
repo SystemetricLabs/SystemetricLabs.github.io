@@ -67,7 +67,7 @@ ul {
 
 li img {
     border: solid var(--accentColor) 2px;
-    width: var(--maxImg);
+    max-width: var(--maxImg);
     height: var(----maxImg);
     display: block;
     float: left;
